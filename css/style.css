@@ -56,7 +56,6 @@
   font-size: x-large;
   text-transform: uppercase;
   color: green;
-  background-color: aliceblue;
   position: relative;
   left: 100px;
 }
@@ -65,12 +64,14 @@
   font-size: large;
   text-transform: uppercase;
   color: red;
+  justify-content: center;
   left: 200px;
 }
 
 .Pedi {
   border-style: solid;
   margin-left: 40%;
+  border-color: aqua;
   margin-top: 30px;
   max-width: 380px;
   display: flex;
@@ -94,4 +95,9 @@
   grid-template-columns: 300px 100px 170px;
   grid-template-rows: 40px 100px;
   grid-template-columns: 3fr 4fr;
+}
+
+.Nosotros {
+  justify-content: center;
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
